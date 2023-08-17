@@ -22,9 +22,10 @@
     </style>
 </head>
 <body>
-<form>
+<form action="" method="GET">
     <label>Введите имя</label>
     <input type="text" name="name" size=20>
+    <input type="">
     <button>
         <a href="http://localhost:8081/play">Продолжить</a>
     </button>

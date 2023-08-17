@@ -3,7 +3,7 @@ package com.syaprojects.adventuretextquest.service;
 import java.io.*;
 
 public class GameLogic {
-    final public static String pathToText = "D://text.txt";
+    final public static String pathToText = "src/main/webapp/data/text.txt";
     final public static String pathToImg = "src/main/webapp/data/images";
     public static Parameter connectToFile(int numberOfPage, String urlToImg){
         try (FileReader fileReader = new FileReader(pathToText)) {
