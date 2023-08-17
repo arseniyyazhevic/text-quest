@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Better VCR';
+    src: url("pixel.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    font-family: 'Better VCR';
+    text-align: left;
+    font-size: 20px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+a {
+    font-family: 'Better VCR';
+    color: #ffffff;
+    user-select: auto; /* Убираем текстовое выделение */
+    text-decoration: none;	/* Убираем подчеркивание */
+    outline: none; /* Убираем контур вокруг ссылки */
+    background-color: #1a1a1a; /* Цвет фона */
+    text-align: center;
+}
+button {
+    color: #ffffff;
+    background: #1a1a1a;
+    outline: none;
+    font-family: 'Better VCR';
+    font-size: 40px;
+    margin: 0px 0px 0px 1100px;
+}
+
+
+
